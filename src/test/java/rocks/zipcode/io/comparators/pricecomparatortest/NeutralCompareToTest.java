@@ -16,8 +16,8 @@ public class NeutralCompareToTest {
         // given
         Double itemPrice = 10.0;
         Comparator<Item> nameComparator = (Comparator<Item>)new PriceComparator();
-        Item item1 = new Item(null, null, itemPrice);
-        Item item2 = new Item(null, null, itemPrice);
+        Item item1 = new Item(98L, null, itemPrice);
+        Item item2 = new Item(78L, null, itemPrice);
 
         // when
         Integer comparisonValue = nameComparator.compare(item1, item2);
@@ -31,8 +31,8 @@ public class NeutralCompareToTest {
         // given
         Double itemPrice = 15.0;
         Comparator<Item> nameComparator = (Comparator<Item>)new PriceComparator();
-        Item item1 = new Item(null, null, itemPrice);
-        Item item2 = new Item(null, null, itemPrice);
+        Item item1 = new Item(45L, null, itemPrice);
+        Item item2 = new Item(34L, null, itemPrice);
 
         // when
         Integer comparisonValue = nameComparator.compare(item1, item2);
@@ -46,8 +46,8 @@ public class NeutralCompareToTest {
         // given
         Double itemPrice = 94.0;
         Comparator<Item> nameComparator = (Comparator<Item>)new PriceComparator();
-        Item item1 = new Item(null, null, itemPrice);
-        Item item2 = new Item(null, null, itemPrice);
+        Item item1 = new Item(21L, null, itemPrice);
+        Item item2 = new Item(12L, null, itemPrice);
 
         // when
         Integer comparisonValue = nameComparator.compare(item1, item2);
