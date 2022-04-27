@@ -21,3 +21,4 @@
 ### Part 4 - Write test cases for sorting by price
 * Using `SortByIdTest` and `SortByNameTest` as example classes, write test at least 3 cases for `SortByPriceTest`.
 * Verify with classmates that your tests are comprehensive, and covering the correct aspect of the program.
+# itemSorter
